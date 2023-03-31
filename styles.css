@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.movie-cover {
+    width: 100px;
+    height: auto;
+}
+
+.movie-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.arrow {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0 5px;
+}
+
+.sortable-placeholder {
+    border: 1px dashed #ccc;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.sortable-ghost {
+    opacity: 0.5;
+}
+
+.sortable-chosen {
+    border: 1px solid #ccc;
+}
+
+.sortable-drag {
+    cursor: move;
+}
